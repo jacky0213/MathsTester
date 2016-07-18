@@ -11,7 +11,7 @@ public class ExampleUnitTest {
     Calculation cal = new Calculation();
 
     @Test
-    public void Normal_Input(){
+    public void NormalCase(){
         assertTrue(Float.toString(cal.calculation(10, 10)), true);
     }
 
@@ -24,5 +24,7 @@ public class ExampleUnitTest {
     public void Extreme_Input(){
         assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
     }
+
+
 
 }

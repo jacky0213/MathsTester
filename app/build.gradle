@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.example.jackykwong.mathstester"
         minSdkVersion 23
-        targetSdkVersion 24
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }

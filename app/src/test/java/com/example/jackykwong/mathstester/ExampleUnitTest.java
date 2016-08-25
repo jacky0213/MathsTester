@@ -14,6 +14,8 @@ public class ExampleUnitTest {
     public void NormalCase(){
         assertTrue(Float.toString(cal.calculation(10, 10)), true);
         assertEquals(Float.toString(cal.calculation(10, 100)), 100);
+        assertEquals(Float.toString(cal.calculation(10, 100)), 100);
+        assertEquals(Float.toString(cal.calculation(10, 100)), 100);
     }
 
     @Test

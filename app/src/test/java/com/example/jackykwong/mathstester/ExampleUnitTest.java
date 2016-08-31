@@ -37,6 +37,21 @@ public class ExampleUnitTest {
         assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
     }
 
+    @Test
+    public void Extreme3_Input(){
+        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
+    }
+
+    @Test
+    public void Extreme4_Input(){
+        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
+    }
+
+    @Test
+    public void Extreme5_Input(){
+        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
+    }
+
 
 
 }

@@ -12,7 +12,7 @@ public class ExampleUnitTest {
 
     @Test
     public void NormalCase(){
-        assertTrue(Float.toString(cal.calculation(10, 10)), true);
+        assertTrue(Float.toString(cal.calculation(10, 10)), false);
         assertEquals(Float.toString(cal.calculation(10, 10)), Float.toString(1));
 
     }
@@ -24,31 +24,6 @@ public class ExampleUnitTest {
 
     @Test
     public void Extreme_Input(){
-        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
-    }
-
-    @Test
-    public void Extreme1_Input(){
-        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
-    }
-
-    @Test
-    public void Extreme2_Input(){
-        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
-    }
-
-    @Test
-    public void Extreme3_Input(){
-        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
-    }
-
-    @Test
-    public void Extreme4_Input(){
-        assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
-    }
-
-    @Test
-    public void Extreme5_Input(){
         assertTrue(Float.toString(cal.calculation(10, 1000000000)), true);
     }
 

@@ -12,7 +12,7 @@ public class ExampleUnitTest {
 
     @Test
     public void NormalCase(){
-        assertTrue(Float.toString(cal.calculation(10, 10)), false);
+        assertTrue(Float.toString(cal.calculation(10, 10)), true);
         assertEquals(Float.toString(cal.calculation(10, 10)), Float.toString(1));
 
     }
